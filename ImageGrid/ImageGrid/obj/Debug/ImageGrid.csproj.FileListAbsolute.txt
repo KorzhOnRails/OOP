@@ -1,0 +1,9 @@
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\ImageGrid\ImageGrid\bin\Debug\ImageGrid.exe.config
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\ImageGrid\ImageGrid\obj\Debug\ImageGrid.csprojResolveAssemblyReference.cache
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\ImageGrid\ImageGrid\obj\Debug\ImageGrid.Properties.Resources.resources
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\ImageGrid\ImageGrid\obj\Debug\ImageGrid.csproj.GenerateResource.Cache
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\ImageGrid\ImageGrid\bin\Debug\ImageGrid.exe
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\ImageGrid\ImageGrid\bin\Debug\ImageGrid.pdb
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\ImageGrid\ImageGrid\obj\Debug\ImageGrid.exe
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\ImageGrid\ImageGrid\obj\Debug\ImageGrid.pdb
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\ImageGrid\ImageGrid\obj\Debug\ImageGrid.Form1.resources

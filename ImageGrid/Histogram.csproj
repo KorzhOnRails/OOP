@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{31D056A2-B02C-4449-BEDD-5ABF36935C22}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Histogram</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageGrid\App.config" />
+    <None Include="ImageGrid\bin\Debug\ImageGrid.exe.config" />
+    <None Include="ImageGrid\bin\Debug\ImageGrid.vshost.exe.config" />
+    <None Include="ImageGrid\bin\Debug\ImageGrid.vshost.exe.manifest" />
+    <None Include="ImageGrid\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="ImageGrid\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ImageGrid\obj\Debug\ImageGrid.csproj.GenerateResource.Cache" />
+    <None Include="ImageGrid\obj\Debug\ImageGrid.csprojResolveAssemblyReference.cache" />
+    <None Include="ImageGrid\Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ImageGrid\Form1.cs" />
+    <Compile Include="ImageGrid\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageGrid\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="ImageGrid\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="ImageGrid\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="ImageGrid\Program.cs" />
+    <Compile Include="ImageGrid\Properties\AssemblyInfo.cs" />
+    <Compile Include="ImageGrid\Properties\Resources.Designer.cs" />
+    <Compile Include="ImageGrid\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ImageGrid\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageGrid\obj\Debug\ImageGrid.Form1.resources" />
+    <EmbeddedResource Include="ImageGrid\obj\Debug\ImageGrid.Properties.Resources.resources" />
+    <EmbeddedResource Include="ImageGrid\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ImageGrid\bin\Debug\ImageGrid.exe" />
+    <Content Include="ImageGrid\bin\Debug\ImageGrid.pdb" />
+    <Content Include="ImageGrid\bin\Debug\ImageGrid.vshost.exe" />
+    <Content Include="ImageGrid\ImageGrid.csproj" />
+    <Content Include="ImageGrid\obj\Debug\ImageGrid.csproj.FileListAbsolute.txt" />
+    <Content Include="ImageGrid\obj\Debug\ImageGrid.exe" />
+    <Content Include="ImageGrid\obj\Debug\ImageGrid.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ImageGrid\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
